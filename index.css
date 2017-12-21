@@ -2,27 +2,30 @@
      margin: 0;
      padding: 0;
      font-size: 24px;
-     position:relative;
  }
-#zhuye{
-    position:absolute;
-}
+
+ #zhuye {
+     position: absolute;
+ }
+
  .daohang {
      background: #000000;
-     width: 1920px;
+     width: 100%;
      height: 64px;
-     overflow: hidden;
+     position: absolute;
  }
 
  ul {
      list-style-type: none;
      text-align: center;
+     position: relative;
+     overflow: hidden;
  }
 
  ul li {
      float: left;
      width: 100px;
-     height: 50px;
+     height: 35px;
      text-align: center;
      padding: 15px;
      margin: 0px auto;
@@ -42,17 +45,21 @@
 
  ul a:hover {
      background: rgba(255, 241, 203, 0.87);
- }
+
+}
+
 
  h1 {
      margin-top: 30px;
      text-align: center;
      font-size: 32px;
  }
-.im{
 
-    width: 100%;
-}
+ .im {
+
+     width: 100%;
+ }
+
  .rexiao {
      margin-top: 20px;
      text-align: center;
@@ -97,41 +104,111 @@
      font-size: 32px;
  }
 
-h2{
-    text-align: center;
-    font-size: 32px;
-    padding-top:20px;
-    margin-top: 30px;
+ h2 {
+     text-align: center;
+     font-size: 32px;
+     padding-top: 20px;
+     margin-top: 30px;
+ }
+
+ .bj2 {
+     height: 700px;
+     background: #f0f0f0;
+     background-size: 100%;
+ }
+
+ .lll {
+     width: 100%;
+     text-align: center;
+     margin-left: 240px;
+ }
+
+ .pj1 {
+     background: url(img/pj1.png) no-repeat left top;
+     margin-top: 30px;
+     height: 520px;
+     width: 340px;
+     float: left;
+ }
+
+ .pj2 {
+     background: url(img/pj1.png) no-repeat left top;
+     margin-top: 30px;
+     height: 520px;
+     width: 340px;
+     float: left;
+     margin-left: 25px;
+ }
+
+  .pj3 {
+     background: url(img/pj1.png) no-repeat left ;
+     margin-top: 25px;
+     height: 520px;
+     width: 340px;
+    float: left;
+      margin-left: 25px;
+ }
+ .pj4 {
+     background: url(img/pj1.png) no-repeat left ;
+     margin-top: 25px;
+     height: 520px;
+     width: 340px;
+     float: left;
+    margin-left: 25px;
+ }
+.wenzi1{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 48px;
 }
-.bj2{
-    height: 700px;
-    background:#f0f0f0;
-    background-size: 100%;
+
+
+.er2 {
+    text-decoration: none;
+    text-decoration-line: none;
 }
-.lll{
-    text-align: center;
+
+
+.ee2 {
+    padding-top: 140px;
+    font-size: 18px;
+    color: #47a6de;
+    text-decoration-line: none;
+}
+
+.er3 {
+      text-decoration: none;
+    text-decoration-line: none;;
+}
+
+.ee1 {
+    padding-top: 140px;
+    font-size: 18px;
+    color: #47a6de;
+    text-decoration-line: none; \
 
 }
-.pj1{
-    background-image: url(img/pj1.png) no-repeat left top;
-    margin-top: 50px;
 
+.er1 {
+    text-decoration: none;
+    text-decoration-line: none;
 }
-.pj2{
-    background-image: url(img/pj2.png);
-    margin-left: 20px;
+
+.ee3 {
+        padding-top: 145px;
+    font-size: 18px;
+    color: #47a6de;
+    text-decoration-line: none;
 }
-.pj3{
-    background-image: url(img/pj2.png);
-    margin-left: 20px;
+
+.ee4 {
+    padding-top: 145px;
+    font-size: 18px;
+    color: #47a6de;
+    text-decoration-line: none;
 }
-.pj4{
-    background-image: url(img/pj2.png);
-    margin-left: 20px;
+
+.er4 {
+      text-decoration: none;
+    text-decoration-line: none;
 }
-/*.title{
-    font-size: 32px;
-    padding:0
-    height: 32px;
-    background: url(img/pj1.png);
-}*/
