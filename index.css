@@ -4,15 +4,11 @@
      font-size: 24px;
  }
 
- #zhuye {
-     position: absolute;
- }
 
- .daohang {
-     background: #000000;
-     width: 100%;
+
+#daohang {
+     width:100%;
      height: 64px;
-     position: absolute;
  }
 
  ul {
@@ -25,7 +21,7 @@
  ul li {
      float: left;
      width: 100px;
-     height: 35px;
+     height: 34px;
      text-align: center;
      padding: 15px;
      margin: 0px auto;
@@ -46,13 +42,13 @@
  ul a:hover {
      background: rgba(255, 241, 203, 0.87);
 
- }
+ }s
 
 
  h1 {
      margin-top: 30px;
      text-align: center;
-     font-size: 32px;
+     font-size: 32 mpx;
  }
 
  .im {
@@ -240,3 +236,37 @@
  .T2 {
      float: right;
  }
+
+.tp {
+    position: relative;
+}
+
+.zhutu {
+    width: 100%;
+    height: 1000px;
+}
+
+.chanpin {
+    font-size: 24px;
+
+}
+
+.btn {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.btn-dh {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.dhanniu {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.biankuang {
+    background: hover:
+}
